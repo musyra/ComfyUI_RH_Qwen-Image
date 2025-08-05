@@ -1,0 +1,73 @@
+{
+  "default_model": "Qwen/Qwen-Image",
+  "default_steps": 50,
+  "default_cfg_scale": 4.0,
+  "default_aspect_ratio": "16:9",
+  "auto_enhance_prompt": true,
+  "cache_models": true,
+  "low_vram_mode": false,
+  "language_detection": {
+    "chinese_threshold": 0.3,
+    "auto_enhance": true
+  },
+  "quality_presets": {
+    "basic": {
+      "zh": "高质量",
+      "en": "high quality"
+    },
+    "high": {
+      "zh": "杰作，最佳质量，高度详细",
+      "en": "masterpiece, best quality, highly detailed"
+    },
+    "ultra": {
+      "zh": "杰作，最佳质量，超高分辨率，极致细节，完美构图，专业级",
+      "en": "masterpiece, best quality, ultra high resolution, extreme detail, perfect composition, professional grade"
+    }
+  },
+  "style_presets": {
+    "realistic": {
+      "zh": "写实风格，真实感，高质量摄影",
+      "en": "realistic style, photorealistic, high quality photography"
+    },
+    "anime": {
+      "zh": "动漫风格，二次元，精美插画",
+      "en": "anime style, 2D illustration, beautiful artwork"
+    },
+    "artistic": {
+      "zh": "艺术风格，绘画作品，创意表现",
+      "en": "artistic style, painting, creative expression"
+    },
+    "cinematic": {
+      "zh": "电影风格，戏剧性光影，电影镜头",
+      "en": "cinematic style, dramatic lighting, movie scene"
+    },
+    "photographic": {
+      "zh": "专业摄影，商业摄影，精细细节",
+      "en": "professional photography, commercial photography, fine details"
+    }
+  },
+  "aspect_ratios": {
+    "1:1": [1328, 1328],
+    "16:9": [1664, 928],
+    "9:16": [928, 1664],
+    "4:3": [1472, 1140],
+    "3:4": [1140, 1472],
+    "21:9": [1792, 768],
+    "2:3": [1024, 1536],
+    "3:2": [1536, 1024]
+  },
+  "performance": {
+    "max_batch_size": 4,
+    "recommended_steps": {
+      "fast": 30,
+      "balanced": 50,
+      "quality": 70,
+      "ultra": 100
+    },
+    "memory_optimization": {
+      "enable_attention_slicing": true,
+      "enable_cpu_offload": false,
+      "enable_sequential_cpu_offload": false
+    }
+  }
+}
