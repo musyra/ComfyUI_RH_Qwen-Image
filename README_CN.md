@@ -2,6 +2,11 @@
 
 这是一个用于ComfyUI的Qwen-Image图像生成节点，基于阿里巴巴通义千问团队发布的Qwen-Image模型实现，专门针对高质量图像生成和文本渲染进行了优化。
 
+## ⚠️ 重要注意事项
+
+- **系统配置要求**: 当前运行环境需要 **24GB GPU显存** 和 **64GB以上内存**，可能还需要打开虚拟内存以确保最佳性能。
+- **MMGP优化问题**: 目前我们对MMGP的使用还存在一些优化空间，可能导致显存不能完全释放，多次连续运行时可能出现问题。我们正在积极寻找解决方案，进一步优化这个问题。
+
 ## ✨ 特性
 
 - 🎨 **高质量图像生成**: 基于20B参数的MMDiT架构
@@ -12,7 +17,7 @@
 - 🚀 **批量生成**: 支持一次生成多张变体图像
 - 🔧 **提示词增强**: 自动优化和增强用户输入的提示词
 - 📊 **实时进度条**: 推理过程中显示详细进度信息和时间估计
-- 💾 **内存优化**: 支持VAE tiling、CPU offload、MMGP优化等
+- 💾 **内存优化**: 24G显存能运行 支持VAE tiling、CPU offload、MMGP优化等
 
 ## 🔧 节点列表
 
@@ -29,8 +34,7 @@
 cd ComfyUI/custom_nodes
 
 # 克隆仓库
-git clone https://github.com/your-username/ComfyUI_RH_Qwen-Image.git
-
+git clone https://github.com/HM-RunningHub/ComfyUI_RH_Qwen-Image
 # 安装依赖
 cd ComfyUI_RH_Qwen-Image
 pip install -r requirements.txt
@@ -104,10 +108,8 @@ A coffee shop entrance features a chalkboard sign reading "Qwen Coffee 😊 $2 p
 
 ## ⚠️ 系统要求
 
-- **存储空间**: 需要约20GB硬盘空间存放本地模型
-- **性能要求**: 建议使用CUDA环境，GPU显存12GB+
+- **性能要求**: 建议使用CUDA环境，GPU显存24GB+，内存64GB+
 - **依赖要求**: 需要最新版本的diffusers库支持
-- **特色功能**: 模型对中文文本渲染有特殊优化
 
 ## 📁 本地模型优势
 

@@ -2,6 +2,11 @@
 
 A custom node for ComfyUI that integrates Alibaba's Qwen-Image model for high-quality image generation with exceptional text rendering capabilities.
 
+## ⚠️ Important Notes
+
+- **System Requirements**: Current operation requires **24GB GPU memory** and **64GB+ RAM**. Virtual memory may need to be enabled for optimal performance.
+- **MMGP Optimization**: We are aware that our MMGP implementation may have optimization issues that prevent proper VRAM release, potentially causing problems with multiple consecutive runs. We are actively working on further optimizations to resolve this issue.
+
 ## ✨ Features
 
 - 🎨 **High-Quality Image Generation**: Powered by 20B parameter MMDiT architecture
@@ -105,9 +110,11 @@ A coffee shop entrance features a chalkboard sign reading "Qwen Coffee 😊 $2 p
 ## ⚠️ Requirements
 
 - **Storage**: ~20GB disk space for local model
-- **Performance**: CUDA environment recommended, 12GB+ GPU memory
+- **Performance**: CUDA environment recommended, 24GB+ GPU memory, 64GB+ RAM
 - **Dependencies**: Latest version of diffusers library required
 - **Special Feature**: Optimized for Chinese text rendering
+
+
 
 ## 📁 Local Model Advantages
 
